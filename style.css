@@ -1,0 +1,112 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    background: url(Wallpaper.jpg);
+    /* background: #efefef; */
+}
+
+.login-form{
+    position: absolute;
+    border: 1px solid #00c3ff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    max-width: 500px;
+    background-color: #000000;
+    padding: 20px 30px;
+    box-shadow: 0px 5px 10px rgba(255, 255, 255, 0.164);
+}
+
+.login-form .form-title{
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    justify-content: center;
+    font-size: 35px;
+    font-weight: 700;
+    margin: 20px 0px 70px;
+    color: #ffffff;
+}
+
+.login-form .form-input{
+    margin: 35px 1px;
+}
+
+.login-form .form-input label,
+.login-form .captcha label{
+    display: block;
+    font-size: 18px;
+    color: #0099ff;
+    margin-bottom: 5px;
+}
+
+.login-form .form-input input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #0077ff;
+    font-size: 18px;
+}
+
+.login-form .captcha{
+    margin: 15px 0px;
+}
+
+.login-form .captcha .preview{
+    color: #ffffff;
+    width: 100%;
+    text-align: center;
+    height: 40px;
+    line-height: 35px;
+    letter-spacing: 10px;
+    border: 1px dashed #e7e7e7;
+    font-family: "monospace";
+    padding-bottom: 40px;
+    padding-top: 5px;
+    font-size: 22px;
+}
+
+.login-form .captcha .preview span{
+    display: inline-block;
+    user-select: none;
+}
+
+.login-form .captcha .captcha-form{
+    display: flex;
+}
+
+.login-form .captcha .captcha-form input{
+    width: 100%;
+    padding: 12px;
+    font-size: 15px;
+    /* padding-top: 50px; */
+    /* border: 1px solid #0066ff; */
+}
+
+.login-form .captcha .captcha-form .captcha-refresh{
+    width: 50px;
+    border: none;
+    outline: none;
+    background-color: #00ccff;
+    color: #000000;
+    cursor: pointer;
+    border: 1px solid #000;
+}
+
+.login-form #login-btn{
+    margin-top: 10px;
+    width: 100%;
+    padding: 12px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    text-transform: uppercase;
+    background-color: #0099ff;
+    color: #fff;
+    cursor: pointer;
+    /* box-shadow: rgb(255, 255, 255); */
+}
